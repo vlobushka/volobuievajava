@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BasicAlgorithm {
+public class TaskAlgorithm {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -25,7 +25,8 @@ public class BasicAlgorithm {
             System.out.println("There is no such name");
         }
 
-        // Condition 3: Output array elements that are multiples of 3
+        // Condition 3: There is a numeric array at the input,
+        // it is necessary to output array elements that are multiples of 3
         System.out.print("Enter the length of the array: ");
         int length = scanner.nextInt();
 
